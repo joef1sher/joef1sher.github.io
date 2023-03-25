@@ -268,3 +268,22 @@ nav ul li {
   margin-left: 1rem;
 }
 
+header {
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
