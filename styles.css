@@ -329,4 +329,9 @@ nav ul li {
 }
 }
 
-
+header.fixed-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: left;
+  padding: 0.5rem;
+}
