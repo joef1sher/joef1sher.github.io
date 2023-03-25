@@ -25,12 +25,11 @@ nav {
 }
 
 nav ul {
-  list-style: none;
+ list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 5px;
+  justify-content: center; /* center the links within the navigation */
+  margin-left: -5px; /* move the links slightly to the left */
 }
 
 nav ul li {
