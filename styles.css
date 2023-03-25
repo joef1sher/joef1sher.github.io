@@ -9,7 +9,7 @@ body {
 
 header {
   background: #313cff;
-  padding: 2rem; /* Increase the padding from 1rem to 2rem */
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
