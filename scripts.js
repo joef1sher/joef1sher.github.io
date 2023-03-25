@@ -1,16 +1,19 @@
-document.querySelectorAll(".more-info").forEach((button) => {
-  button.addEventListener("click", (event) => {
-    const target = event.target;
-    const serviceId = target.dataset.serviceId;
-    const serviceDetails = document.querySelector(
-      `.service-details[data-service-detail-id="${serviceId}"]`
-    );
+document.addEventListener('DOMContentLoaded', function () {
+  var modal = document.getElementById('myModal');
+  var btn = document.getElementById('get-started');
+  var span = document.getElementsByClassName('close')[0];
 
-    if (serviceDetails.classList.contains("open")) {
-      serviceDetails.classList.remove("open");
-    } else {
-      serviceDetails.classList.add("open");
+  btn.onclick = function () {
+    modal.style.display = 'block';
+  };
+
+  span.onclick = function () {
+    modal.style.display = 'none';
+  };
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = 'none';
     }
-  });
+  };
 });
-
