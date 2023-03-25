@@ -310,7 +310,6 @@ nav ul li {
   padding: 10px 20px; /* Add padding to make the links more prominent */
   text-decoration: none; /* Remove the underline from the links */
   color: #fff; /* Change the text color on hover */
-  background-color: #333; /* Change the background color on hover */
   border-radius: 5px; /* Add rounded corners */
   transition: all 0.3s ease; /* Add a smooth transition effect */
 }
