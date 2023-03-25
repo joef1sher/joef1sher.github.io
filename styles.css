@@ -269,8 +269,9 @@ form textarea {
   text-align: center;
   position: relative;
   overflow: hidden;
-  margin-top: 70px; /* Add this line */
+  margin-top: 0;
 }
+
 
 
 .plans-intro h2 {
