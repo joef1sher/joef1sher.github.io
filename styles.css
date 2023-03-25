@@ -29,7 +29,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center; /* center the links within the navigation */
-  margin-left: -10px; /* move the links slightly to the left */
+  margin-left: -15px; /* move the links slightly to the left */
 }
 
 nav ul li {
@@ -51,7 +51,7 @@ nav ul li a {
   border-radius: 5px;
   transition: background 0.3s;
   border: 2px solid #313cff; /* Add a border */
-  margin-top: 10px; /* Add some space above the links */
+  margin-top: 15px; /* Add some space above the links */
 }
 
 nav ul li a:hover {
