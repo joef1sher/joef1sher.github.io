@@ -29,7 +29,10 @@ nav ul {
   list-style: none;
   padding: 0;
   display: flex;
+  width: 100%; /* Add this line */
+  justify-content: center; /* Add this line */
 }
+
 
 nav ul li {
   margin-left: 1rem;
