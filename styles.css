@@ -287,3 +287,8 @@ nav ul {
 nav ul li {
   margin-left: 1rem;
 }
+
+.header-container {
+  margin: 0;
+  padding: 0;
+}
