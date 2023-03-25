@@ -25,7 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.more-info').forEach(function (button) {
     button.addEventListener('click', function () {
       const details = button.nextElementSibling;
-      details.classList.toggle('open');
+      if (details.classList.contains('info-content')) {
+        details.classList.toggle('open');
+      }
     });
   });
 });
