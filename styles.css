@@ -12,8 +12,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Add this line to make the header stretch across the screen */
+  width: 100%;
+  margin-top: 50px; /* Add this line to move the header down */
 }
+
 
 
 header a.logo {
