@@ -222,6 +222,7 @@ form textarea {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  color: black;
 }
 
 .review {
