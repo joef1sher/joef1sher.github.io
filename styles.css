@@ -298,7 +298,6 @@ nav ul li {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #1464db; /* change this to match your desired background color */
   z-index: 1000; /* this will make sure the header is always on top of other elements */
   display: flex;
   justify-content: center;
