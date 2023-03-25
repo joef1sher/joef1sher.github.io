@@ -14,25 +14,19 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 50px; /* Add this line to move the header down */
 }
 
-
-
-header a.logo {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.5rem;
+nav {
+  width: 50%; /* set a fixed width for the navigation */
+  margin: 0 auto; /* center the navigation horizontally */
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  width: 100%; /* Add this line */
-  justify-content: center; /* Add this line */
+  justify-content: center; /* center the links within the navigation */
 }
-
 
 nav ul li {
   margin-left: 1rem;
@@ -41,11 +35,17 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: background 0.3s;
 }
 
 nav ul li a:hover {
-  color: #104f9e;
+  background: #104f9e;
 }
+
 
 .hero {
   background: #040fe6;
