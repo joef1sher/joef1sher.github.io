@@ -22,9 +22,22 @@ form.addEventListener('submit', (e) => {
     console.error('Error:', error);
   });
 });
+
 const getStartedButton = document.getElementById('get-started');
 getStartedButton.addEventListener('click', (e) => {
   e.preventDefault(); // Prevent the button from submitting the form
-  form.submit(); // Trigger the form submission
+  document.getElementById('myModal').style.display = "block"; // Show the modal
 });
 
+const closeButtons = document.getElementsByClassName('close');
+for (let i = 0; i < closeButtons.length; i++) {
+  closeButtons[i].addEventListener('click', (e) => {
+    document.getElementById('myModal').style.display = "none"; // Hide the modal
+  });
+}
+
+window.addEventListener('click', (e) => {
+  if (e.target === document.getElementById('myModal')) {
+    document.getElementById('myModal').style.display = "none"; // Hide the modal
+  }
+});
