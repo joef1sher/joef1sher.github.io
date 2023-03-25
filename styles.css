@@ -17,9 +17,11 @@ header {
 }
 
 nav {
-  width: 50%; /* set a fixed width for the navigation */
-  margin: 0 auto; /* center the navigation horizontally */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-60%);
 }
+
 
 nav ul {
   list-style: none;
