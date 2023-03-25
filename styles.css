@@ -3,11 +3,11 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #313cff; /* Change the background color to match the header */
+  background: #fff; /* Change the background color to match the header */
 }
 
 header {
-  background: #313cff;
+  background: linear-gradient(135deg, #6b73ff, #000dff);
   color: #fff;
   padding: 1rem;
   display: flex;
