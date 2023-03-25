@@ -16,16 +16,19 @@ header {
 }
 
 nav {
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 10px;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center; /* center the links within the navigation */
+  justify-content: center;
 }
+
 
 nav ul li {
   margin-left: 1rem;
