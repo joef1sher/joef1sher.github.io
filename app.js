@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 const getStartedButton = document.getElementById('get-started');
-const modal = document.getElementById('modal');
+const modal = document.getElementById('myModal');
 const closeButton = document.getElementsByClassName('close')[0];
 
 getStartedButton.addEventListener('click', function () {
@@ -43,4 +43,4 @@ window.addEventListener('click', function (event) {
   if (event.target === modal) {
     modal.style.display = 'none';
   }
-});
+}); 
