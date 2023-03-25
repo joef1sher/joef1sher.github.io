@@ -19,10 +19,12 @@ header {
 
 nav {
   position: absolute;
-  top: 20px; /* adjust the top value as desired */
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2; /* Add this line */
 }
+
 
 nav ul {
  list-style: none;
