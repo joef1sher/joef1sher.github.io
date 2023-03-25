@@ -1,36 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var modal = document.getElementById('myModal');
-  var btn = document.getElementById('get-started');
-  var span = document.getElementsByClassName('close')[0];
+document.addEventListener("DOMContentLoaded", function() {
+    const moreInfoButton = document.querySelector(".more-info");
+    const getStartedButton = document.querySelector(".get-started");
 
-  if (btn) {
-    btn.addEventListener('click', function (event) {
-      event.stopPropagation();
-      modal.style.display = 'block';
+    moreInfoButton.addEventListener("click", function() {
+        alert("More Info clicked!");
     });
-  }
 
-  if (span) {
-    span.addEventListener('click', function (event) {
-      event.stopPropagation();
-      modal.style.display = 'none';
+    getStartedButton.addEventListener("click", function() {
+        alert("Get Started clicked!");
     });
-  }
-
-  window.onclick = function (event) {
-    if (event.target == modal) {
-      modal.style.display = 'none';
-    }
-  };
-
-  // More Info buttons
-  document.querySelectorAll('.more-info').forEach(function (button) {
-    button.addEventListener('click', function (event) {
-      event.stopPropagation();
-      const details = button.nextElementSibling;
-      if (details.classList.contains('info-content')) {
-        details.classList.toggle('open');
-      }
-    });
-  });
 });
