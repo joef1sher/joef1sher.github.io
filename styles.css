@@ -305,5 +305,5 @@ nav ul li {
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional: add a subtle shadow for a nicer look */
+  background: #313cff
 }
