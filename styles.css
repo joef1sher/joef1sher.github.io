@@ -28,11 +28,13 @@ nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
 nav ul li {
-  margin-left: 1rem;
+  margin-left: 50px;
 }
 
 nav ul li:first-child {
