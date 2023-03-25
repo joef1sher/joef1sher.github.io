@@ -310,4 +310,19 @@ nav ul li {
   justify-content: center;
   padding: 10px 0;
   background: #040fe6
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px; /* Increase the font size */
+  font-weight: bold; /* Make the text bolder */
+  padding: 10px 20px; /* Add padding to make the links more prominent */
+  text-decoration: none; /* Remove the underline from the links */
+  color: #fff; /* Change the text color on hover */
+  background-color: #333; /* Change the background color on hover */
+  border-radius: 5px; /* Add rounded corners */
+  transition: all 0.3s ease; /* Add a smooth transition effect */
 }
+}
+
+
