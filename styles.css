@@ -3,11 +3,11 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #1464db; /* Change the background color to match the header */
+  background-color: #313cff; /* Change the background color to match the header */
 }
 
 header {
-  background: #1464db;
+  background: #313cff;
   color: #fff;
   padding: 1rem;
   display: flex;
