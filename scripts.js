@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // More Info buttons
   document.querySelectorAll('.more-info').forEach(function (button) {
-    button.addEventListener('click', function () {
+    button.addEventListener('click', function (event) {
+      event.stopPropagation(); // Add this line to stop event propagation
       const details = button.nextElementSibling;
       if (details.classList.contains('info-content')) {
         details.classList.toggle('open');
