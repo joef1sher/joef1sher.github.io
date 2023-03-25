@@ -335,3 +335,8 @@ header.fixed-header h1 {
   text-align: left;
   padding: 0.5rem;
 }
+
+header h1 {
+  margin-left: 20px;
+}
+
