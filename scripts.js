@@ -22,4 +22,9 @@ form.addEventListener('submit', (e) => {
     console.error('Error:', error);
   });
 });
+const getStartedButton = document.getElementById('get-started');
+getStartedButton.addEventListener('click', (e) => {
+  e.preventDefault(); // Prevent the button from submitting the form
+  form.submit(); // Trigger the form submission
+});
 
