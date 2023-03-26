@@ -358,3 +358,8 @@ header h1 {
   color: #fff;
 }
 
+.stars {
+  font-size: 1.5rem;
+  color: gold;
+  margin-bottom: 1rem;
+}
